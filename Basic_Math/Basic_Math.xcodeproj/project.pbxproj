@@ -32,6 +32,7 @@
 		8B676B561E560A050072D9C0 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B441E560A050072D9C0 /* play_again.png */; };
 		8B676B571E560A050072D9C0 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B451E560A050072D9C0 /* star_kids.png */; };
 		8B676B581E560A050072D9C0 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B461E560A050072D9C0 /* thumbs_up.png */; };
+		8B676B5A1E560DD10072D9C0 /* Drag_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B591E560DD10072D9C0 /* Drag_Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		8B676B441E560A050072D9C0 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
 		8B676B451E560A050072D9C0 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
 		8B676B461E560A050072D9C0 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
+		8B676B591E560DD10072D9C0 /* Drag_Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drag_Image.swift; path = "Additional Classes/Drag_Image.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		8B676B051E5609970072D9C0 /* Basic_Math */ = {
 			isa = PBXGroup;
 			children = (
+				8B676B591E560DD10072D9C0 /* Drag_Image.swift */,
 				8B676B061E5609970072D9C0 /* AppDelegate.swift */,
 				8B676B081E5609970072D9C0 /* ViewController.swift */,
 				8B676B0A1E5609970072D9C0 /* Main.storyboard */,
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B676B091E5609970072D9C0 /* ViewController.swift in Sources */,
+				8B676B5A1E560DD10072D9C0 /* Drag_Image.swift in Sources */,
 				8B676B071E5609970072D9C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +568,7 @@
 				8B676B2D1E5609970072D9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B676B2E1E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_MathTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +577,7 @@
 				8B676B301E5609970072D9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B676B311E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_MathUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +586,7 @@
 				8B676B331E5609970072D9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
